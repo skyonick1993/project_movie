@@ -1,0 +1,9 @@
+{
+  "hello": "hello",
+  "signin": "Log in",
+  "signup": "Sign up",
+  "home": "Home",
+  "contact": "Contact",
+  "news": "News",
+  "logout": "Log out"
+}

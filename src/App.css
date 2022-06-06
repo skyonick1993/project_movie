@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn-purple {
+  @apply bg-gray-400 hover:bg-gray-800 duration-300 text-black text-lg font-semibold hover:text-white px-4 py-2 rounded-l-lg rounded-r-lg mx-2 my-1;
+}
+
+.active-selectedFilm {
+  @apply bg-gray-800 ring-2 ring-white text-white;
+}
+
+.btn-outline-purple {
+  @apply bg-transparent border-2 border-purple-600 hover:bg-purple-800 hover:border-purple-800 text-purple-600 font-semibold hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-purple-400 duration-300 px-4 py-2 rounded-l-lg rounded-r-lg mx-2 my-1;
+}
+
+.body-fontFamily {
+  font-family: "NunitoSans-Regular";
+  color: rgb(146, 171, 207);
+  /* background-color: rgb(4, 6, 9); */
+}
+
+@font-face {
+  font-family: "NunitoSans-Regular";
+  src: url("./font/NunitoSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "NunitoSans-Bold";
+  src: url("./font/NunitoSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "NunitoSans-ExtraBold";
+  src: url("./font/NunitoSans-ExtraBold.ttf");
+}

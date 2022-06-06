@@ -1,0 +1,37 @@
+.movie__item__poster__content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s linear;
+}
+
+.movie__item__poster:hover .movie__item__poster__content {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.movie__item__poster__content i {
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.movie__item__poster::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -6.25rem;
+  background: linear-gradient(to bottom, #161615, #4d4b4b);
+  opacity: 0.5;
+  width: 0;
+  height: 100%;
+  transform: skewX(30deg);
+  transition: all 0.3s linear;
+}
+
+.movie__item__poster:hover::before {
+  width: 200%;
+}
